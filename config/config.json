@@ -605,6 +605,12 @@
         "Directory": "./plugins",
         "ClientDirectory": "./client/plugins",
         "Plugins": {
+            "com.mattermost.alfabuddy": {
+                "enableav1": true,
+                "enabledcsignaling": true,
+                "enableringing": true,
+                "enablesimulcast": true
+            },
             "com.mattermost.calls": {
                 "enableav1": true,
                 "enabledcsignaling": true,
